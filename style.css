@@ -1,0 +1,36 @@
+.img-scrol{
+  width: 10% !important;
+  height: 60px;
+  object-fit: cover;
+}
+.slides{
+  background: #f3f3f382;
+  border-radius: 20px;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px #c7dfed;
+   
+}
+
+.owl-nav {
+    display: flex !important;
+    justify-content: center; 
+    margin-top: 10px;
+  }
+  
+  .owl-prev, .owl-next  {
+    background-color: #007bff !important; 
+    color: white !important; 
+    font-size: 25px !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .owl-prev:hover, .owl-next:hover {
+    background-color: #0056b3 !important; 
+  }

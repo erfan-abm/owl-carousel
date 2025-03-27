@@ -1,6 +1,6 @@
 .img-scrol{
-  width: 10% !important;
-  height: 60px;
+  width: 6% !important;
+  height: 2.7em;
   object-fit: cover;
 }
 .slides{
@@ -8,29 +8,37 @@
   border-radius: 20px;
   margin-top: 2rem;
   cursor: pointer;
-  box-shadow: 1px 1px 10px #c7dfed;
+  height: 15rem;
    
 }
+.comments{
+height: 7em;
+border-radius: 20px;
+background: #80bdff6e;
+border-radius: 10px;
+position: relative;
 
-.owl-nav {
-    display: flex !important;
-    justify-content: center; 
-    margin-top: 10px;
-  }
-  
-  .owl-prev, .owl-next  {
-    background-color: #007bff !important; 
-    color: white !important; 
-    font-size: 25px !important;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    margin: 5px;
-  }
-  
-  .owl-prev:hover, .owl-next:hover {
-    background-color: #0056b3 !important; 
-  }
+
+}
+.triangle {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #80bdff6e;
+  position: absolute;
+  bottom: -14px;
+}
+.custom-dots {
+  text-align: center;
+}
+
+.custom-dots .dot {
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-dots .dot.active {
+  color: #80bdff6e;
+}

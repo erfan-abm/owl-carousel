@@ -1,7 +1,5 @@
 .img-scrol{
   width: 6% !important;
-  height: 2.7em;
-  object-fit: cover;
 }
 .slides{
   background: #f3f3f382;
@@ -25,7 +23,7 @@ position: relative;
   border-right: 15px solid transparent;
   border-top: 15px solid #80bdff6e;
   position: absolute;
-  bottom: -14px;
+  bottom: -14.5px;
 }
 .custom-dots {
   text-align: center;
